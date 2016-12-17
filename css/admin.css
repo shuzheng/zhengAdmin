@@ -128,7 +128,7 @@ a, a:hover, a:active, a:focus {text-decoration: none; -webkit-user-drag: none;}
 .content_tab>ul>li>a:after{content:"";position:absolute;bottom:0;left:50%;right:50%;width:0;border-bottom:3px solid #FFEB3B;transition:all linear .2s}
 .content_tab>ul>.cur>a:after{left:0;bottom:1px;width:100%;opacity:1;transition:all linear .2s}
 
-.content_main{height:calc(100% - 48px);-webkit-overflow-scrolling:touch;overflow-y:scroll;}
+.content_main{height:calc(100% - 48px);-webkit-overflow-scrolling:touch;}
 .content_main>.cur{display:block;}
 .iframe{height:100%;display:none;}
 
