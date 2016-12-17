@@ -1,0 +1,3 @@
+body, html {height: 100%; position: relative; font-family: 'Microsoft yahei'; font-size: 13px; font-weight: 400; overflow-y: hidden;}
+img {vertical-align: middle;}
+a, a:hover, a:active, a:focus {text-decoration: none; -webkit-user-drag: none;}
