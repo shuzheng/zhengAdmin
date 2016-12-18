@@ -67,6 +67,7 @@ $(function() {
 		height: getHeight(),
 		striped: true,
 		search: true,
+		searchOnEnterKey: true,
 		showRefresh: true,
 		showToggle: true,
 		showColumns: true,
@@ -76,6 +77,8 @@ $(function() {
 		detailView: true,
 		detailFormatter: 'detailFormatter',
 		pagination: true,
+		paginationLoop: false,
+		classes: 'table table-hover table-no-bordered',
 		//sidePagination: 'server',
 		idField: 'id',
 		sortName: 'id',
@@ -107,8 +110,8 @@ $(function() {
 });
 function actionFormatter(value, row, index) {
     return [
-        '<a class="like" href="javascript:void(0)" data-toggle="tooltip" title="Like"><i class="glyphicon glyphicon-heart"></i></a> ',
-        '<a class="edit ml10" href="javascript:void(0)" data-toggle="tooltip" title="Edit"><i class="glyphicon glyphicon-edit"></i></a> ',
+        '<a class="like" href="javascript:void(0)" data-toggle="tooltip" title="Like"><i class="glyphicon glyphicon-heart"></i></a>　',
+        '<a class="edit ml10" href="javascript:void(0)" data-toggle="tooltip" title="Edit"><i class="glyphicon glyphicon-edit"></i></a>　',
         '<a class="remove ml10" href="javascript:void(0)" data-toggle="tooltip" title="Remove"><i class="glyphicon glyphicon-remove"></i></a>'
     ].join('');
 }
