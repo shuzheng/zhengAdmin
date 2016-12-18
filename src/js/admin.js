@@ -165,7 +165,7 @@ $(function() {
 // 选项卡对象
 var Tab = {
 	addTab: function(title, url) {
-		var index = url.replace('.', '_').replace('/', '__');
+		var index = url.replace('.', '_').replace(/\//g, '__');
 		// 如果存在选项卡，则激活，否则创建新选项卡
 		if ($('#tab_' + index).length == 0) {
 			// 添加选项卡
