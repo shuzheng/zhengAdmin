@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.shuzheng</groupId>
+    <artifactId>zhengAdmin</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>zhengAdmin</name>
+    <url>http://www.zhangshuzheng.cn/zhengAdmin/</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.7</maven.compiler.compilerVersion>
+    </properties>
+
+    <build>
+        <finalName>zhengAdmin</finalName>
+        <resources>
+            <resource>
+                <directory>src</directory>
+            </resource>
+        </resources>
+    </build>
+</project>
