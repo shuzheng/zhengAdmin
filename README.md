@@ -23,7 +23,7 @@
 ``` 
 
 
-![预览效果图](src/images/zheng-upms-crud.png)
+![预览效果图](images/zheng-upms-crud.png)
 
 # License
   MIT
