@@ -4,7 +4,7 @@
 
 # 在线演示
 
-地址： [http://www.zhangshuzheng.cn/zhengAdmin/src](http://www.zhangshuzheng.cn/zhengAdmin/src "zhengAdmin")
+地址： [http://www.zhangshuzheng.cn/zhengAdmin](http://www.zhangshuzheng.cn/zhengAdmin "zhengAdmin")
 
 # 使用方法
 
