@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>用户权限管理系统</title>
 
+	<link href="plugins/fullPage/jquery.fullPage.css" rel="stylesheet"/>
 	<link href="plugins/bootstrap-3.3.0/css/bootstrap.min.css" rel="stylesheet"/>
 	<link href="plugins/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet"/>
 	<link href="plugins/waves-0.7.5/waves.min.css" rel="stylesheet"/>
 	<link href="plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
 	<link href="css/admin.css" rel="stylesheet"/>
+
 </head>
 <body>
 <header id="header">
@@ -26,6 +28,7 @@
 			<a href="index.html">
 				<img src="images/logo.png"/>
 			</a>
+			<span id="system_title">权限管理系统</span>
 		</li>
 		<li class="pull-right">
 			<ul class="hi-menu">
@@ -74,7 +77,7 @@
 					</a>
 					<ul class="dropdown-menu dm-icon pull-right">
 						<li class="hidden-xs">
-							<a class="waves-effect" data-ma-action="fullscreen" href="javascript:;"><i class="zmdi zmdi-fullscreen"></i> 全屏模式</a>
+							<a class="waves-effect" data-ma-action="fullscreen" href="javascript:fullPage();"><i class="zmdi zmdi-fullscreen"></i> 全屏模式</a>
 						</li>
 						<li>
 							<a class="waves-effect" data-ma-action="clear-localstorage" href="javascript:;"><i class="zmdi zmdi-delete"></i> 清除缓存</a>
@@ -190,7 +193,7 @@
 		</div>
 		<div class="content_main">
 			<div id="iframe_home" class="iframe cur">
-				<p><h4>通用用户权限管理系统</h4></p>
+				<p><h4>通用用户权限管理系统 <i style="color:#c00">(此站仅为静态页演示)</i></h4></p>
 				<p><b>演示地址</b>：<a href="http://www.zhangshuzheng.cn/upms" target="_blank">http://www.zhangshuzheng.cn/upms</a></p>
 				<p><b>系统简介</b>：本系统是基于RBAC授权和基于用户授权的细粒度权限控制通用平台，并提供单点登录、会话管理和日志管理。接入的系统可自由定义组织、角色、权限、资源等。</p><br/>
 				<p><h4>系统功能概述：</h4></p>
@@ -218,6 +221,8 @@
 <script src="plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="plugins/BootstrapMenu.min.js"></script>
 <script src="plugins/device.min.js"></script>
+<script src="plugins/fullPage/jquery.fullPage.min.js"></script>
+<script src="plugins/fullPage/jquery.jdirk.min.js"></script>
 
 <script src="js/admin.js"></script>
 </body>
