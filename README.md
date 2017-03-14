@@ -2,6 +2,8 @@
 
 基于bootstrap实现的响应式Material Design风格的通用后台管理系统
 
+交流QQ群：133107819🈵、284280411♨️
+
 # 在线演示
 
 地址： [http://www.zhangshuzheng.cn/zhengAdmin](http://www.zhangshuzheng.cn/zhengAdmin "zhengAdmin")
