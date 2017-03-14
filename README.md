@@ -9,7 +9,15 @@
 地址： [http://www.zhangshuzheng.cn/zhengAdmin](http://www.zhangshuzheng.cn/zhengAdmin "zhengAdmin")
 
 
-![预览效果图](images/zheng-upms-crud.png)
+![预览效果图](images/zheng-upms-theme.png)
+
+![预览效果图](images/zheng-cms-theme.png)
+
+![预览效果图](images/zheng-pay-theme.png)
+
+![预览效果图](images/zheng-ucenter-theme.png)
+
+![预览效果图](images/zheng-oss-theme.png)
 
 # License
   MIT
