@@ -1,3 +1,4 @@
+<div style="background:#000;color:#fff">
 # zhengAdmin
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/shuzheng/zhengAdmin/pulls)
@@ -29,4 +30,4 @@
 
 # License
   MIT
-
+</div>
